@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.navbar-1 h1{
+    color: orangered;
+    font-weight: 800;
+    font-size: 36px;
+}
+.navbar-2 a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.navbar-2 a:hover{
+   color: blue;
+}
+.navbar-3 a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/* banner section  */
+.banner-section{
+    background-image: url("../images/slider-1.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+.banner-overlay{
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-overlay h1{
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow: 3px 3px 2px rgb(63, 63, 63);
+}
+.banner-overlay p{
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 3px 3px 2px rgb(63, 63, 63);
+}
+.banner-overlay a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* about section  */
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    gap: 60px;
+}
+.about-left, .about-right{
+    width: 40%;
+}
+.about-left h2{
+    font-size: 34px;
+   
+}
+.about-left h2 span{
+    color: orangered;
+   
+}
+.about-left p{
+    margin: 20px 0;
+   
+}
+.about-left h4{
+    font-size: 22px;
+   
+}
+.about-stats{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+.about-stats h5{
+    font-size: 22px;
+    color: orangered;
+}
+.about-left a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/* service section  */
+.service-text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.service-card{
+    width: 25%;
+    height: 250px;
+    border: 1px solid gray;
+   
+  
+    transition-duration: 1s;
+}
+.service-cards-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 50px;
+}
+.service-icon{
+    height: 80px;
+    width: 80px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.service-card h3{
+    margin: 20px 0;
+}
+.service-card:hover{
+    
+    background-size: cover;
+   
+    color: white;
+}
+.service-card1:hover{
+background-image: url("../images/service-1.webp");
+}
+.service-card2:hover{
+background-image: url("../images/service-2.webp");
+}
+.service-card3:hover{
+background-image: url("../images/service-3.webp");
+}
+.service-card4:hover{
+background-image: url("../images/service-4.webp");
+}
+.service-card5:hover{
+background-image: url("../images/service-5.webp");
+}
+.service-card6:hover{
+background-image: url("../images/service-6.webp");
+}
+.service-card:hover .service-icon{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    color: orangered;
+}
+.service-card:hover .service-card-overlay{
+    background-color: rgba(0, 0, 0, 0.324);
+}
+.service-card-overlay{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      padding: 20px;
+      height: 100%;
+}
